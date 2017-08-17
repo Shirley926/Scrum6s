@@ -35,7 +35,7 @@
     "@types/webpack-env": "^1.13.0",
     "autoprefixer": "^6.5.1",
     "awesome-typescript-loader": "^3.0.3",
-    "better-npm-run": "^0.0.14",
+    "better-npm-run": "^0.1.0",
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.10.1",
