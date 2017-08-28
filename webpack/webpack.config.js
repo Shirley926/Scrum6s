@@ -24,7 +24,7 @@ var baseConfig = {
     entry: Entrys,
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
-        extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
+        extensions: [".webpack.js", ".web.js", ".jsx", ".js"]
     },
     output: {
         filename: '[name].js',
@@ -117,7 +117,6 @@ const DEV_Config=merge(baseConfig, {
                 test: /\.js[x]?$/,
                 include:config.appDir,
                 exclude: /node_modules/,
-                options:{fix:true},
                 loader: "eslint-loader"
             },
             {
